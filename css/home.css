@@ -13,19 +13,19 @@ body {
 
 .header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    height: 10vh;
+    height: 5%;
     background-color: #222;
 }
 
 .txt-container{
-    width: 50%;
+    width: 100%;
     font-weight: bold;
     color: #D4AF37;
     font-family: "Times New Roman", Times, serif;
-    font-size: 1.3rem;
-    margin-top: 0.7%;
+    font-size: 1.1rem;
+    margin-top: 2%;
 }
 
 .txt-container p{
@@ -33,20 +33,20 @@ body {
 }
 
 .txt-container2{
-    width: 50%;
+    width: 100%;
     text-align: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
 }
 
 .contact{
-    font-size: 1rem;
     color: white;
 }
 
 .section-1-bg{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.623)), url(../img/blind-justice.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -61,37 +61,10 @@ body {
     content: "";
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     backdrop-filter: blur(10px);
     align-items: center;
     justify-content: center;
-}
-
-.specs{
-    background-color: white;
-    width: 100%;
-    height: 35%;
-    border-bottom: #D4AF37;
-    border-radius: 10px;
-    margin-top: 26.5%;
-    border-bottom: 3px solid #D4AF37;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.quadro{
-    width: 40%;
-    color: rgb(95, 94, 94);
-    font-size: 1.1rem;
-    margin-top: 2%;
-}
-
-.quadro p{
-    margin-top: 3%;
 }
 
 .white{
@@ -112,22 +85,24 @@ body {
     color: white;
     font-weight: bold;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 220%;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 22%;
+    margin-top: 32%;
+    margin-bottom: 5%;
 }
 
 .click{
     color: white;
     font-weight: bold;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 90%;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10%;
 }
 
 .question button{
     background-color: green;
-    width: 50%;
+    width: 90%;
     height: 10%;
     text-transform: uppercase;
     font-weight: bold;
@@ -137,6 +112,30 @@ body {
     box-shadow: 0px 2px 25px 4px #ffffff48;
     margin-top: 5%;
     transition: 600ms ease;
+    font-size: 80%;
+    margin-bottom: 28%;
+}
+
+.specs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-top: -4%;
+    height: 80%;
+    color: rgb(102, 102, 102);
+}
+
+.quadro{
+    width: 100%; 
+    background-color: white;
+    border-radius: 10px;
+    border-bottom: 3px solid #D4AF37;
+    box-shadow: 0px 2px 10px 4px #00000048;
+}
+
+.quadro p{
+    margin-top: 3%;
 }
 
 .question button:hover{
@@ -145,28 +144,35 @@ body {
     font-size: 1.3rem;
 }
 
+/*section 2*/
+
 .section-2{
     width: 100%;
-    height: 140vh;
+    height: 250%;
     background-color: #E9E7E7;
     align-items: center;
     text-align: center;
 }
 
+.h1-1{
+    padding-top: 150%;
+    font-size: 150%;
+    margin-bottom: 15%;
+}
+
 .services{
-    width: 100%;
+    width: 90%;
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+    flex-direction: column;
+    gap: 30px;
     margin-top: 6%;
-    margin-left: 3.4%;
-    height: 25vh;
+    height: 250%;
 }
 
 .quadro-1{  
-    width: 30%; 
+    width: 100%; 
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 76%, rgba(233,231,231,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(233,231,231,1) 100%);
     border-radius: 10px;
 }
 
@@ -175,34 +181,31 @@ body {
     margin-left: 6%;
     margin-right: 6%;
     margin-top: 2%;
-    font-size: 1.2rem;
+    font-size: 110%;
     color: rgb(95, 94, 94);;
 }
 
-.h1-1{
-    padding-top: 14%;
-}
-
 .h1-2{
-    padding-top: 15%;
+    padding-top: 15%;        
+    font-size: 150%;
 }
 
 .section-2 h2{
     color: grey;
-    font-size: 1.4rem;
+    font-size: 120%;
 }
 
 .section-2 button{
     background-color: green;
-    width: 20%;
-    height: 50px;
+    width: 55%;
+    height: 40px;
     text-transform: uppercase;
     font-weight: bold;
     color: white;
     border: none;
     border-radius: 25px;
     box-shadow: 0px 2px 25px 4px #0000006c;
-    margin-top: 2%;
+    margin-top: 15%;
     transition: 600ms ease;
 }
 
@@ -212,9 +215,11 @@ body {
     font-size: 1.3rem;
 }
 
+ /*section 3*/
+
 .section-3-bg{
     width: 100%;
-    height: 140vh;
+    height: 210%;
     background-color: #E9E7E7;
     align-items: center;
     justify-content: center;
@@ -222,45 +227,31 @@ body {
 
 .resume{
     width: 100%;
-    height: 45vh;
+    height: 55vh;
     background-color: #222;
     padding-top: 25%;
-    display: flex;
-    flex-direction: row;
 }
 
 .left{
-    width: 45%;
-    height: 20vh;
-    margin-top: -26%;
-    margin-left: -1%;
-}
-
-.left img{
-    max-width: 550px;
-    max-height: 550px;
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 20%;
-    box-shadow: 0px 2px 10px 4px #00000048;
+    display: none;
 }
 
 .right{
-    width: 54.5%;
+    width: 90%;
     height: 20vh;
     margin-top: -24%;
     color: white;
-    margin-right: 1%;
 }
 
 .right p{
     margin-top: 2%;
-    font-size: 1.1rem;
+    font-size: 100%;
     text-align: justify;
 }
 
 .right button{
     background-color: green;
-    width: 26%;
+    width: 46%;
     height: 40px;
     text-transform: uppercase;
     font-weight: bold;
@@ -268,8 +259,8 @@ body {
     border: none;
     border-radius: 25px;
     box-shadow: 0px 2px 25px 4px #0000006c;
-    font-size: 0.8rem;
-    margin-top: 0.5%;
+    font-size: 75%;
+    margin-top: -1%;
     transition: 600ms ease;
 }
 
@@ -293,10 +284,11 @@ body {
 
 .hg h1{
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .quadro-2{  
-    width: 30%; 
+    width: 100%; 
     height: 42vh;
     border-radius: 10px;
     background-color: #222;
@@ -310,7 +302,7 @@ body {
 
 .quadro-2 h1{
     color: white;
-    font-size: 1.5rem;
+    font-size: 150%;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 1%;
@@ -320,15 +312,17 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     color: white;
-    font-size: 1.2rem;
+    font-size: 120%;
     margin-top: 1%;
     text-align: justify;
     margin-top: 1%;
 }
 
+/*section 4*/
+
 .section-4-bg{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.623)), url(../img/blind-justice.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -343,67 +337,68 @@ body {
     content: "";
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     backdrop-filter: blur(10px);
     align-items: center;
     justify-content: center;
 }
 
-.l{
-    width: 50%;
-}
-
 .info{
-    width: 60%;
+    width: 100%;
     height: 50vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: relative;
     padding-top: 25%;
+}
+
+.l{
+    width: 100%;        
 }
 
 .l h1{
     color: #D4AF37;
     font-family: "Times New Roman", Times, serif;
-    font-size: 2.2rem;
+    font-size: 200%;
     font-weight: bold;
 }
 
 .l h2{
     color: #D4AF37;
     font-family: "Times New Roman", Times, serif;
-    font-size: 1.2rem;
+    font-size: 120%;
     margin-top: -3%;
     font-weight: bold;
 }
 
 .r{
-    width: 50%;
+    width: 100%;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 150%;
     color: white;
+    margin-top: 25%;
 }
 
 .footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    height: 5vh;
+    height: 5%;
     background-color: #222;
     color: white;
     font-weight: bold;
-    font-size: 0.7rem;
+    font-size: 55%;
 }
 
 .txt-l{    
     padding-top: 0.8%;
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 
 .txt-r{
     padding-top: 0.9%;
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 
@@ -415,213 +410,5 @@ body {
 
 .txt-r a:hover{
     color: #D4AF37;
-    font-size: 1rem;
+    font-size: .8rem;
 }
-
-@media screen and (width > 1500px){
-    .specs{
-        margin-top: 22%;
-    }
-
-    .services{
-        height: 30vh;
-    }
-
-    .h1-2{
-        padding-top: 10%;
-    }
-
-    .left{
-        margin-left: -1%;
-    }
-    
-    .left img{
-        max-width: 588px;
-        max-height: 588px;
-        margin-top: 1%;
-    }
-        
-    .right p{
-        margin-top: 2%;
-        font-size: 1.1rem;
-        text-align: justify;
-    }
-
-    .right button{
-        margin-top: 1%;
-    }
-    
-} 
-
-@media screen and (width < 586px){
-    .header{
-        flex-direction: column;
-        width: 100%;
-        height: 15vh;
-    }
-
-    .txt-container{
-        width: 100%;
-        font-size: 1.1rem;
-        margin-top: 0.7%;
-    }
-    
-    .txt-container2{
-        width: 100%;
-    }
-    
-    .contact{
-        font-size: .8rem;
-    }
-
-    .section-1-bg{
-        height: 70vh;
-    }
-    
-    .specs{
-        height: 95%;
-        margin-top: 35%;
-        align-items:center ;
-        flex-direction: column;
-    }
-    
-    .quadro{
-        width: 70%;
-    }
-    
-    .question{
-        width: 80%;
-        height: 50vh;
-        border: 2px solid transparent;
-    }
-    
-    .call{
-        font-size: 1.6rem;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 30%;
-    }
-    
-    .click{
-        font-size: 0.8rem;
-    }
-    
-    .question button{
-        font-size: 0.8rem;
-        background-color: green;
-        width: 70%;
-        margin-top: 10%;
-        transition: 600ms ease;
-    }
-
-    .section-2{
-        height: 190vh;
-    }
-    
-    .services{
-    flex-direction: column;
-    margin-left: 5%;
-    }
-    
-    .quadro-1{  
-        width: 90%; 
-    }
-    
-    .h1-1{
-        padding-top: 70%;
-    }
-    
-    .h1-2{
-        padding-top: 95%;
-    }
-    
-    .section-2 h2{
-        color: grey;
-        font-size: 1.4rem;
-    }
-    
-    .section-2 button{
-        width: 50%;
-        margin-top: 8%;
-    }
-    
-    .left{
-        width: 45%;
-        height: 20vh;
-    }
-    
-    .left img{
-        max-width: 220px;
-        height: 360px;
-    }
-    
-    .right{
-        width: 54.5%;
-        height: 20vh;
-        margin-top: -24%;
-        color: white;
-        margin-right: 2%;
-    }
-    
-    .right p{
-        margin-top: 2%;
-        font-size: 0.8rem;
-        text-align: justify;
-    }
-
-    .right h1{
-        font-size: 1.3rem;
-    }
-
-    .right h2{
-        font-size: .9rem;
-        margin-top: -3.5%;
-    }
-
-    .right button{
-        width: 62%;
-    }
-    
-    .quadro-2{  
-        width: 90%; 
-    }   
-    
-    .section-3-bg{
-        height: 190vh;
-    }
-
-    .section-4-bg{
-        height: 80vh;
-    }
-    
-    .section-4-bg::before{
-        height: 80vh;
-    }
-
-    .info{
-        width: 80%;
-        flex-direction: column;
-        padding-top: 35%;
-    }
-
-    .l{
-        width: 100%;
-    }
-    
-    .r{
-        width: 100%;
-        padding-top: 20%;
-    }
-
-    .footer{
-        flex-direction: column;
-        height: 6vh;
-    }
-    
-    .txt-l{    
-        width: 100%;
-    }
-    
-    .txt-r{
-        width: 100%;
-    }
-} 
